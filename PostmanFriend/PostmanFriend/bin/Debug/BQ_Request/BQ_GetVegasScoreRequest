@@ -1,0 +1,1029 @@
+{
+    "dataRequest": [
+        {
+            "requestContext": {
+                "reportContext": {
+                    "reportId": "a8453146-65c5-4e59-8a53-a935332c1224",
+                    "pageId": "31252232",
+                    "mode": 1,
+                    "componentId": "cd-xc4tqyggjc",
+                    "displayType": "simple-table"
+                }
+            },
+            "datasetSpec": {
+                "dataset": [
+                    {
+                        "datasourceId": "9a4284c2-d0d2-49b5-923f-fe8c6e1c5db9",
+                        "revisionNumber": 0,
+                        "parameterOverrides": []
+                    }
+                ],
+                "queryFields": [
+                    {
+                        "name": "qt_7sp0qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_ZoneName_"
+                        }
+                    },
+                    {
+                        "name": "qt_8sp0qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_MachineNo_",
+                            "aggregation": 0
+                        }
+                    },
+                    {
+                        "name": "qt_9sp0qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_account_"
+                        }
+                    },
+                    {
+                        "name": "qt_atp0qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_nickname_"
+                        }
+                    },
+                    {
+                        "name": "qt_btp0qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_GameNo_"
+                        }
+                    },
+                    {
+                        "name": "qt_4kq0qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_RoundNumber_",
+                            "aggregation": 0
+                        }
+                    },
+                    {
+                        "name": "qt_5kq0qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_Bet_",
+                            "aggregation": 0
+                        }
+                    },
+                    {
+                        "name": "qt_6kq0qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_CoinExchangeRate_",
+                            "aggregation": 0
+                        }
+                    },
+                    {
+                        "name": "qt_7kq0qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_Win_",
+                            "aggregation": 0
+                        }
+                    },
+                    {
+                        "name": "qt_8kq0qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_StateName_"
+                        }
+                    },
+                    {
+                        "name": "qt_1cr0qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_award_"
+                        }
+                    },
+                    {
+                        "name": "qt_2cr0qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_icon_"
+                        }
+                    },
+                    {
+                        "name": "qt_3cr0qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_RemoveFromJackpotPool_",
+                            "aggregation": 0
+                        }
+                    },
+                    {
+                        "name": "qt_4cr0qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_Grab7Reward_",
+                            "aggregation": 0
+                        }
+                    },
+                    {
+                        "name": "qt_5cr0qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_real_win_",
+                            "aggregation": 0
+                        }
+                    },
+                    {
+                        "name": "qt_y4r0qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_GameStartTime_tw_"
+                        }
+                    },
+                    {
+                        "name": "qt_z4r0qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_balanceHBefore_real_",
+                            "aggregation": 0
+                        }
+                    },
+                    {
+                        "name": "qt_04r0qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_balanceAfter_real_",
+                            "aggregation": 0
+                        }
+                    }
+                ],
+                "sortData": [
+                    {
+                        "sortColumn": {
+                            "name": "qt_y4r0qo95lc",
+                            "datasetNs": "d0",
+                            "tableNs": "t0",
+                            "dataTransformation": {
+                                "sourceFieldName": "_GameStartTime_tw_"
+                            }
+                        },
+                        "sortDir": 1
+                    },
+                    {
+                        "sortColumn": {
+                            "name": "qt_4kq0qo95lc",
+                            "datasetNs": "d0",
+                            "tableNs": "t0",
+                            "dataTransformation": {
+                                "sourceFieldName": "_RoundNumber_",
+                                "aggregation": 0
+                            }
+                        },
+                        "sortDir": 1
+                    }
+                ],
+                "includeRowsCount": true,
+                "relatedDimensionMask": {
+                    "addDisplay": false,
+                    "addUniqueId": false,
+                    "addLatLong": false
+                },
+                "paginateInfo": {
+                    "startRow": 1,
+                    "rowsCount": 5000
+                },
+                "filters": [
+                    {
+                        "filterDefinition": {
+                            "filterExpression": {
+                                "include": true,
+                                "conceptType": 0,
+                                "concept": {
+                                    "name": "qt_jy20qo95lc",
+                                    "ns": "t0"
+                                },
+                                "filterConditionType": "EQ",
+                                "queryTimeTransformation": {
+                                    "dataTransformation": {
+                                        "sourceFieldName": "_account_"
+                                    },
+                                    "displayTransformation": {
+                                        "displayName": "帳號"
+                                    }
+                                },
+                                "stringValues": [
+                                    "TA315"
+                                ]
+                            }
+                        },
+                        "dataSubsetNs": {
+                            "datasetNs": "d0",
+                            "tableNs": "t0",
+                            "contextNs": "c0"
+                        },
+                        "version": 3
+                    }
+                ],
+                "features": [],
+                "dateRanges": [
+                    {
+                        "startDate": 20221109,
+                        "endDate": 20221109,
+                        "dataSubsetNs": {
+                            "datasetNs": "d0",
+                            "tableNs": "t0",
+                            "contextNs": "c0"
+                        }
+                    }
+                ],
+                "contextNsCount": 1,
+                "calculatedField": [],
+                "needGeocoding": false,
+                "geoFieldMask": [],
+                "geoVertices": 100000
+            },
+            "retryHints": {
+                "useClientControlledRetry": true,
+                "isLastRetry": false,
+                "retryCount": 0,
+                "originalRequestId": "cd-xc4tqyggjc-primary"
+            }
+        },
+        {
+            "requestContext": {
+                "reportContext": {
+                    "reportId": "a8453146-65c5-4e59-8a53-a935332c1224",
+                    "pageId": "31252232",
+                    "mode": 1,
+                    "componentId": "cd-ud8pi5wljc",
+                    "displayType": "dimension-filter"
+                }
+            },
+            "datasetSpec": {
+                "dataset": [
+                    {
+                        "datasourceId": "9a4284c2-d0d2-49b5-923f-fe8c6e1c5db9",
+                        "revisionNumber": 0,
+                        "parameterOverrides": []
+                    }
+                ],
+                "queryFields": [
+                    {
+                        "name": "qt_tx90qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_StateName_"
+                        }
+                    }
+                ],
+                "sortData": [
+                    {
+                        "sortColumn": {
+                            "name": "qt_tx90qo95lc",
+                            "datasetNs": "d0",
+                            "tableNs": "t0",
+                            "dataTransformation": {
+                                "sourceFieldName": "_StateName_"
+                            }
+                        },
+                        "sortDir": 1
+                    }
+                ],
+                "includeRowsCount": true,
+                "relatedDimensionMask": {
+                    "addDisplay": false,
+                    "addUniqueId": false,
+                    "addLatLong": false
+                },
+                "paginateInfo": {
+                    "startRow": 1,
+                    "rowsCount": 5001
+                },
+                "filters": [
+                    {
+                        "filterDefinition": {
+                            "filterExpression": {
+                                "include": true,
+                                "conceptType": 0,
+                                "concept": {
+                                    "name": "qt_jy20qo95lc",
+                                    "ns": "t0"
+                                },
+                                "filterConditionType": "EQ",
+                                "queryTimeTransformation": {
+                                    "dataTransformation": {
+                                        "sourceFieldName": "_account_"
+                                    },
+                                    "displayTransformation": {
+                                        "displayName": "帳號"
+                                    }
+                                },
+                                "stringValues": [
+                                    "TA315"
+                                ]
+                            }
+                        },
+                        "dataSubsetNs": {
+                            "datasetNs": "d0",
+                            "tableNs": "t0",
+                            "contextNs": "c0"
+                        },
+                        "version": 3
+                    }
+                ],
+                "features": [],
+                "dateRanges": [
+                    {
+                        "startDate": 20221109,
+                        "endDate": 20221109,
+                        "dataSubsetNs": {
+                            "datasetNs": "d0",
+                            "tableNs": "t0",
+                            "contextNs": "c0"
+                        }
+                    }
+                ],
+                "contextNsCount": 1,
+                "calculatedField": [],
+                "needGeocoding": false,
+                "geoFieldMask": [],
+                "geoVertices": 100000
+            },
+            "retryHints": {
+                "useClientControlledRetry": true,
+                "isLastRetry": false,
+                "retryCount": 0,
+                "originalRequestId": "cd-ud8pi5wljc-primary"
+            }
+        },
+        {
+            "requestContext": {
+                "reportContext": {
+                    "reportId": "a8453146-65c5-4e59-8a53-a935332c1224",
+                    "pageId": "31252232",
+                    "mode": 1,
+                    "componentId": "cd-59qk62xljc",
+                    "displayType": "kpi-metric"
+                }
+            },
+            "datasetSpec": {
+                "dataset": [
+                    {
+                        "datasourceId": "9a4284c2-d0d2-49b5-923f-fe8c6e1c5db9",
+                        "revisionNumber": 0,
+                        "parameterOverrides": []
+                    }
+                ],
+                "queryFields": [
+                    {
+                        "name": "qt_o9b1qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_Bet_",
+                            "aggregation": 6
+                        }
+                    }
+                ],
+                "sortData": [],
+                "includeRowsCount": false,
+                "relatedDimensionMask": {
+                    "addDisplay": false,
+                    "addUniqueId": false,
+                    "addLatLong": false
+                },
+                "filters": [
+                    {
+                        "filterDefinition": {
+                            "filterExpression": {
+                                "include": true,
+                                "conceptType": 0,
+                                "concept": {
+                                    "name": "qt_jy20qo95lc",
+                                    "ns": "t0"
+                                },
+                                "filterConditionType": "EQ",
+                                "queryTimeTransformation": {
+                                    "dataTransformation": {
+                                        "sourceFieldName": "_account_"
+                                    },
+                                    "displayTransformation": {
+                                        "displayName": "帳號"
+                                    }
+                                },
+                                "stringValues": [
+                                    "TA315"
+                                ]
+                            }
+                        },
+                        "dataSubsetNs": {
+                            "datasetNs": "d0",
+                            "tableNs": "t0",
+                            "contextNs": "c0"
+                        },
+                        "version": 3
+                    }
+                ],
+                "features": [],
+                "dateRanges": [
+                    {
+                        "startDate": 20221109,
+                        "endDate": 20221109,
+                        "dataSubsetNs": {
+                            "datasetNs": "d0",
+                            "tableNs": "t0",
+                            "contextNs": "c0"
+                        }
+                    }
+                ],
+                "contextNsCount": 1,
+                "calculatedField": [],
+                "needGeocoding": false,
+                "geoFieldMask": [],
+                "geoVertices": 100000
+            },
+            "retryHints": {
+                "useClientControlledRetry": true,
+                "isLastRetry": false,
+                "retryCount": 0,
+                "originalRequestId": "cd-59qk62xljc-primary"
+            }
+        },
+        {
+            "requestContext": {
+                "reportContext": {
+                    "reportId": "a8453146-65c5-4e59-8a53-a935332c1224",
+                    "pageId": "31252232",
+                    "mode": 1,
+                    "componentId": "cd-wvvkr4xljc",
+                    "displayType": "kpi-metric"
+                }
+            },
+            "datasetSpec": {
+                "dataset": [
+                    {
+                        "datasourceId": "9a4284c2-d0d2-49b5-923f-fe8c6e1c5db9",
+                        "revisionNumber": 0,
+                        "parameterOverrides": []
+                    }
+                ],
+                "queryFields": [
+                    {
+                        "name": "qt_cle1qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_Win_",
+                            "aggregation": 6
+                        }
+                    }
+                ],
+                "sortData": [],
+                "includeRowsCount": false,
+                "relatedDimensionMask": {
+                    "addDisplay": false,
+                    "addUniqueId": false,
+                    "addLatLong": false
+                },
+                "filters": [
+                    {
+                        "filterDefinition": {
+                            "filterExpression": {
+                                "include": true,
+                                "conceptType": 0,
+                                "concept": {
+                                    "name": "qt_jy20qo95lc",
+                                    "ns": "t0"
+                                },
+                                "filterConditionType": "EQ",
+                                "queryTimeTransformation": {
+                                    "dataTransformation": {
+                                        "sourceFieldName": "_account_"
+                                    },
+                                    "displayTransformation": {
+                                        "displayName": "帳號"
+                                    }
+                                },
+                                "stringValues": [
+                                    "TA315"
+                                ]
+                            }
+                        },
+                        "dataSubsetNs": {
+                            "datasetNs": "d0",
+                            "tableNs": "t0",
+                            "contextNs": "c0"
+                        },
+                        "version": 3
+                    }
+                ],
+                "features": [],
+                "dateRanges": [
+                    {
+                        "startDate": 20221109,
+                        "endDate": 20221109,
+                        "dataSubsetNs": {
+                            "datasetNs": "d0",
+                            "tableNs": "t0",
+                            "contextNs": "c0"
+                        }
+                    }
+                ],
+                "contextNsCount": 1,
+                "calculatedField": [],
+                "needGeocoding": false,
+                "geoFieldMask": [],
+                "geoVertices": 100000
+            },
+            "retryHints": {
+                "useClientControlledRetry": true,
+                "isLastRetry": false,
+                "retryCount": 0,
+                "originalRequestId": "cd-wvvkr4xljc-primary"
+            }
+        },
+        {
+            "requestContext": {
+                "reportContext": {
+                    "reportId": "a8453146-65c5-4e59-8a53-a935332c1224",
+                    "pageId": "31252232",
+                    "mode": 1,
+                    "componentId": "cd-xvwgljxnjc",
+                    "displayType": "kpi-metric"
+                }
+            },
+            "datasetSpec": {
+                "dataset": [
+                    {
+                        "datasourceId": "9a4284c2-d0d2-49b5-923f-fe8c6e1c5db9",
+                        "revisionNumber": 0,
+                        "parameterOverrides": []
+                    }
+                ],
+                "queryFields": [
+                    {
+                        "name": "qt_soh1qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_rb_win_",
+                            "aggregation": 6
+                        }
+                    }
+                ],
+                "sortData": [],
+                "includeRowsCount": false,
+                "relatedDimensionMask": {
+                    "addDisplay": false,
+                    "addUniqueId": false,
+                    "addLatLong": false
+                },
+                "filters": [
+                    {
+                        "filterDefinition": {
+                            "filterExpression": {
+                                "include": true,
+                                "conceptType": 0,
+                                "concept": {
+                                    "name": "qt_jy20qo95lc",
+                                    "ns": "t0"
+                                },
+                                "filterConditionType": "EQ",
+                                "queryTimeTransformation": {
+                                    "dataTransformation": {
+                                        "sourceFieldName": "_account_"
+                                    },
+                                    "displayTransformation": {
+                                        "displayName": "帳號"
+                                    }
+                                },
+                                "stringValues": [
+                                    "TA315"
+                                ]
+                            }
+                        },
+                        "dataSubsetNs": {
+                            "datasetNs": "d0",
+                            "tableNs": "t0",
+                            "contextNs": "c0"
+                        },
+                        "version": 3
+                    }
+                ],
+                "features": [],
+                "dateRanges": [
+                    {
+                        "startDate": 20221109,
+                        "endDate": 20221109,
+                        "dataSubsetNs": {
+                            "datasetNs": "d0",
+                            "tableNs": "t0",
+                            "contextNs": "c0"
+                        }
+                    }
+                ],
+                "contextNsCount": 1,
+                "calculatedField": [],
+                "needGeocoding": false,
+                "geoFieldMask": [],
+                "geoVertices": 100000
+            },
+            "retryHints": {
+                "useClientControlledRetry": true,
+                "isLastRetry": false,
+                "retryCount": 0,
+                "originalRequestId": "cd-xvwgljxnjc-primary"
+            }
+        },
+        {
+            "requestContext": {
+                "reportContext": {
+                    "reportId": "a8453146-65c5-4e59-8a53-a935332c1224",
+                    "pageId": "31252232",
+                    "mode": 1,
+                    "componentId": "cd-aie3wjxnjc",
+                    "displayType": "kpi-metric"
+                }
+            },
+            "datasetSpec": {
+                "dataset": [
+                    {
+                        "datasourceId": "9a4284c2-d0d2-49b5-923f-fe8c6e1c5db9",
+                        "revisionNumber": 0,
+                        "parameterOverrides": []
+                    }
+                ],
+                "queryFields": [
+                    {
+                        "name": "qt_g0j1qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_rb_gametime_",
+                            "aggregation": 6
+                        }
+                    }
+                ],
+                "sortData": [],
+                "includeRowsCount": false,
+                "relatedDimensionMask": {
+                    "addDisplay": false,
+                    "addUniqueId": false,
+                    "addLatLong": false
+                },
+                "filters": [
+                    {
+                        "filterDefinition": {
+                            "filterExpression": {
+                                "include": true,
+                                "conceptType": 0,
+                                "concept": {
+                                    "name": "qt_jy20qo95lc",
+                                    "ns": "t0"
+                                },
+                                "filterConditionType": "EQ",
+                                "queryTimeTransformation": {
+                                    "dataTransformation": {
+                                        "sourceFieldName": "_account_"
+                                    },
+                                    "displayTransformation": {
+                                        "displayName": "帳號"
+                                    }
+                                },
+                                "stringValues": [
+                                    "TA315"
+                                ]
+                            }
+                        },
+                        "dataSubsetNs": {
+                            "datasetNs": "d0",
+                            "tableNs": "t0",
+                            "contextNs": "c0"
+                        },
+                        "version": 3
+                    }
+                ],
+                "features": [],
+                "dateRanges": [
+                    {
+                        "startDate": 20221109,
+                        "endDate": 20221109,
+                        "dataSubsetNs": {
+                            "datasetNs": "d0",
+                            "tableNs": "t0",
+                            "contextNs": "c0"
+                        }
+                    }
+                ],
+                "contextNsCount": 1,
+                "calculatedField": [],
+                "needGeocoding": false,
+                "geoFieldMask": [],
+                "geoVertices": 100000
+            },
+            "retryHints": {
+                "useClientControlledRetry": true,
+                "isLastRetry": false,
+                "retryCount": 0,
+                "originalRequestId": "cd-aie3wjxnjc-primary"
+            }
+        },
+        {
+            "requestContext": {
+                "reportContext": {
+                    "reportId": "a8453146-65c5-4e59-8a53-a935332c1224",
+                    "pageId": "31252232",
+                    "mode": 1,
+                    "componentId": "cd-1nqg52znjc",
+                    "displayType": "kpi-metric"
+                }
+            },
+            "datasetSpec": {
+                "dataset": [
+                    {
+                        "datasourceId": "9a4284c2-d0d2-49b5-923f-fe8c6e1c5db9",
+                        "revisionNumber": 0,
+                        "parameterOverrides": []
+                    }
+                ],
+                "queryFields": [
+                    {
+                        "name": "qt_ckl1qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_RemoveFromJackpotPool_",
+                            "aggregation": 6
+                        }
+                    }
+                ],
+                "sortData": [],
+                "includeRowsCount": false,
+                "relatedDimensionMask": {
+                    "addDisplay": false,
+                    "addUniqueId": false,
+                    "addLatLong": false
+                },
+                "filters": [
+                    {
+                        "filterDefinition": {
+                            "filterExpression": {
+                                "include": true,
+                                "conceptType": 0,
+                                "concept": {
+                                    "name": "qt_jy20qo95lc",
+                                    "ns": "t0"
+                                },
+                                "filterConditionType": "EQ",
+                                "queryTimeTransformation": {
+                                    "dataTransformation": {
+                                        "sourceFieldName": "_account_"
+                                    },
+                                    "displayTransformation": {
+                                        "displayName": "帳號"
+                                    }
+                                },
+                                "stringValues": [
+                                    "TA315"
+                                ]
+                            }
+                        },
+                        "dataSubsetNs": {
+                            "datasetNs": "d0",
+                            "tableNs": "t0",
+                            "contextNs": "c0"
+                        },
+                        "version": 3
+                    }
+                ],
+                "features": [],
+                "dateRanges": [
+                    {
+                        "startDate": 20221109,
+                        "endDate": 20221109,
+                        "dataSubsetNs": {
+                            "datasetNs": "d0",
+                            "tableNs": "t0",
+                            "contextNs": "c0"
+                        }
+                    }
+                ],
+                "contextNsCount": 1,
+                "calculatedField": [],
+                "needGeocoding": false,
+                "geoFieldMask": [],
+                "geoVertices": 100000
+            },
+            "retryHints": {
+                "useClientControlledRetry": true,
+                "isLastRetry": false,
+                "retryCount": 0,
+                "originalRequestId": "cd-1nqg52znjc-primary"
+            }
+        },
+        {
+            "requestContext": {
+                "reportContext": {
+                    "reportId": "a8453146-65c5-4e59-8a53-a935332c1224",
+                    "pageId": "31252232",
+                    "mode": 1,
+                    "componentId": "cd-f4vf87znjc",
+                    "displayType": "kpi-metric"
+                }
+            },
+            "datasetSpec": {
+                "dataset": [
+                    {
+                        "datasourceId": "9a4284c2-d0d2-49b5-923f-fe8c6e1c5db9",
+                        "revisionNumber": 0,
+                        "parameterOverrides": []
+                    }
+                ],
+                "queryFields": [
+                    {
+                        "name": "qt_83m1qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_jp_time_",
+                            "aggregation": 6
+                        }
+                    }
+                ],
+                "sortData": [],
+                "includeRowsCount": false,
+                "relatedDimensionMask": {
+                    "addDisplay": false,
+                    "addUniqueId": false,
+                    "addLatLong": false
+                },
+                "filters": [
+                    {
+                        "filterDefinition": {
+                            "filterExpression": {
+                                "include": true,
+                                "conceptType": 0,
+                                "concept": {
+                                    "name": "qt_jy20qo95lc",
+                                    "ns": "t0"
+                                },
+                                "filterConditionType": "EQ",
+                                "queryTimeTransformation": {
+                                    "dataTransformation": {
+                                        "sourceFieldName": "_account_"
+                                    },
+                                    "displayTransformation": {
+                                        "displayName": "帳號"
+                                    }
+                                },
+                                "stringValues": [
+                                    "TA315"
+                                ]
+                            }
+                        },
+                        "dataSubsetNs": {
+                            "datasetNs": "d0",
+                            "tableNs": "t0",
+                            "contextNs": "c0"
+                        },
+                        "version": 3
+                    }
+                ],
+                "features": [],
+                "dateRanges": [
+                    {
+                        "startDate": 20221109,
+                        "endDate": 20221109,
+                        "dataSubsetNs": {
+                            "datasetNs": "d0",
+                            "tableNs": "t0",
+                            "contextNs": "c0"
+                        }
+                    }
+                ],
+                "contextNsCount": 1,
+                "calculatedField": [],
+                "needGeocoding": false,
+                "geoFieldMask": [],
+                "geoVertices": 100000
+            },
+            "retryHints": {
+                "useClientControlledRetry": true,
+                "isLastRetry": false,
+                "retryCount": 0,
+                "originalRequestId": "cd-f4vf87znjc-primary"
+            }
+        },
+        {
+            "requestContext": {
+                "reportContext": {
+                    "reportId": "a8453146-65c5-4e59-8a53-a935332c1224",
+                    "pageId": "31252232",
+                    "mode": 1,
+                    "componentId": "cd-kh38of0njc",
+                    "displayType": "kpi-metric"
+                }
+            },
+            "datasetSpec": {
+                "dataset": [
+                    {
+                        "datasourceId": "9a4284c2-d0d2-49b5-923f-fe8c6e1c5db9",
+                        "revisionNumber": 0,
+                        "parameterOverrides": []
+                    }
+                ],
+                "queryFields": [
+                    {
+                        "name": "qt_4no1qo95lc",
+                        "datasetNs": "d0",
+                        "tableNs": "t0",
+                        "dataTransformation": {
+                            "sourceFieldName": "_Grab7Reward_",
+                            "aggregation": 6
+                        }
+                    }
+                ],
+                "sortData": [],
+                "includeRowsCount": false,
+                "relatedDimensionMask": {
+                    "addDisplay": false,
+                    "addUniqueId": false,
+                    "addLatLong": false
+                },
+                "filters": [
+                    {
+                        "filterDefinition": {
+                            "filterExpression": {
+                                "include": true,
+                                "conceptType": 0,
+                                "concept": {
+                                    "name": "qt_jy20qo95lc",
+                                    "ns": "t0"
+                                },
+                                "filterConditionType": "EQ",
+                                "queryTimeTransformation": {
+                                    "dataTransformation": {
+                                        "sourceFieldName": "_account_"
+                                    },
+                                    "displayTransformation": {
+                                        "displayName": "帳號"
+                                    }
+                                },
+                                "stringValues": [
+                                    "TA315"
+                                ]
+                            }
+                        },
+                        "dataSubsetNs": {
+                            "datasetNs": "d0",
+                            "tableNs": "t0",
+                            "contextNs": "c0"
+                        },
+                        "version": 3
+                    }
+                ],
+                "features": [],
+                "dateRanges": [
+                    {
+                        "startDate": 20221109,
+                        "endDate": 20221109,
+                        "dataSubsetNs": {
+                            "datasetNs": "d0",
+                            "tableNs": "t0",
+                            "contextNs": "c0"
+                        }
+                    }
+                ],
+                "contextNsCount": 1,
+                "calculatedField": [],
+                "needGeocoding": false,
+                "geoFieldMask": [],
+                "geoVertices": 100000
+            },
+            "retryHints": {
+                "useClientControlledRetry": true,
+                "isLastRetry": false,
+                "retryCount": 0,
+                "originalRequestId": "cd-kh38of0njc-primary"
+            }
+        }
+    ]
+}
