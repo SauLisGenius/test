@@ -678,9 +678,9 @@ namespace PostmanFriend
             delayTime = 1000;
             playerScoresDataPath = Application.StartupPath + @"/" + DateTime.Now.Year.ToString() + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00");
 
-            //bet = 80;
-            //await PlayFruit(bet, id, token, ZoneType);
-            //Thread.Sleep(10);
+            bet = 80;
+            await PlayFruit(bet, id, token, ZoneType);
+            Thread.Sleep(10);
 
             //bet = 90;
             //await PlayRagnarok(bet, id, token, ZoneType);

@@ -178,7 +178,6 @@ namespace PostmanFriend
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 14;
-            this.textBox1.Text = "suck888";
             // 
             // textBox2
             // 
@@ -187,7 +186,6 @@ namespace PostmanFriend
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 15;
-            this.textBox2.Text = "pP909090";
             // 
             // button3
             // 
